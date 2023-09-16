@@ -1,0 +1,86 @@
+/* .notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .notification.visible {
+    opacity: 1;
+  }
+  
+  .success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .error {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: inherit;
+  }
+   */
+
+
+   /* .notification {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+  
+  } */
+
+  .notification {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
+  .notification .close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; /* Adjust font size as needed */
+    border-radius: 50%; /* Make it round */
+  }
+
+  .notification.visible {
+    opacity: 1;
+  }
+  .success {
+    background-color: #4caf50;
+    color: #fff;
+  }
