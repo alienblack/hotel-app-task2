@@ -43,7 +43,7 @@ function Login() {
       <MDBContainer
         fluid
         className="d-flex align-items-center justify-content-center"
-        style={{ minHeight: "100vh", backgroundColor: "#1C2F54" }}
+        style={{ minHeight: "100vh", backgroundColor: "black" }}
       >
         <MDBCard className="text-black m-5" style={{ borderRadius: "25px" }}>
           <MDBCardBody>
@@ -60,7 +60,7 @@ function Login() {
                 <MDBBtn
                   className="mb-2 w-100"
                   size="lg"
-                  style={{ backgroundColor: "#dd4b39" }}
+                  style={{ backgroundColor: "black" }}
                   //   onClick={signInwithGoogle}
                   onClick={handleGoogleSignIn}
                 >
@@ -75,7 +75,7 @@ function Login() {
                 className="order-1 order-lg-2 d-flex align-items-center"
               >
                 <MDBCardImage
-                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                  src="https://i.pcmag.com/imagery/articles/01eGstfLC8DcJFtCbjOVe69-12.fit_lim.size_1600x900.v1623096915.jpg"
                   fluid
                 />
               </MDBCol>
